@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+}
+
+.board-row {
+    display: flex;
+    border: 1px solid #000;
+    background-color: aqua;
+}
+
+.one-field {
+    flex: 1;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-purple {
+    background-color: purple;
+}
